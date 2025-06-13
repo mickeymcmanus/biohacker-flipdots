@@ -1,7 +1,7 @@
 # Flip Dot Display Library #
 
 This is a python library to power the Biohacker flip dot display. It includes the ability to display basic text, video,
-textual transitions, it used to be able to also display text from Twitter, and run a Twitter based scavenger hunt game (it needs to be updated to have that functionality again).
+textual transitions, it used to be able to also display text from Twitter, and run a Twitter based scavenger hunt game (it needs to be updated to have that functionality again). It has been updated to do double height and double wide text on a 14x30 pixel display (it's current configuration) and also now supports using fedora/linux to find and access the serial port.
 
 ## Installation ##
 
@@ -16,7 +16,9 @@ There are several requirements that must be installed for this package to be ful
 
 
 ## Usage ##
-
+after installing the above packages, try:
+python enhanced_biopunk_playlist.py
+edit this playlist to change what the text shows and how it performs
 ### Text ###
 
 The following will simply display "Hello World" on the flip dots. getbytes() is usually called before sending to any
