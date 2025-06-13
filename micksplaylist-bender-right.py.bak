@@ -1,0 +1,11 @@
+# coding: utf-8
+from video import video
+
+
+while True:
+    video.display_video("Bender-eyes-right")
+    video.display_video("Bender-eyes-right")
+    video.display_video("Bender-eyes-right")
+    video.display_video("Bender-eyes-right")
+
+
