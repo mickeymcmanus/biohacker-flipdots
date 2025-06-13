@@ -1,29 +1,19 @@
 # Flip Dot Display Library #
 
-This is a python library to power MAYA's flip dot display. It includes the ability to display basic text, video,
-textual transitions, display text from Twitter, and run a Twitter based scavenger hunt game.
+This is a python library to power the Biohacker flip dot display. It includes the ability to display basic text, video,
+textual transitions, it used to be able to also display text from Twitter, and run a Twitter based scavenger hunt game (it needs to be updated to have that functionality again).
 
 ## Installation ##
 
 There are several requirements that must be installed for this package to be fully functional.
 
 *   pySerial -- Used for communication to the flip dots.
-*   PIL -- Used by the video module to convert images to bitmaps to be displayed.
+*   pillow -- Used by the video module to convert images to bitmaps to be displayed.
 *   Twython -- Used for communicating to Twitter.
 *   Requests -- Used by Twython, needed to catch connection errors being thrown by Twython.
 *   FFMPEG -- To convert videos into frames to display.
+*   future -- Used for updating it to run in python 3.x
 
-Once the requirements are fulfilled, installation is as simple as:
-
-```
-git clone git@git.eng.maya.com:flipdots.git
-```
-
-or
-
-```
-svn checkout https://YOURUSERNAMEHERE@svn.maya.com/maya_design/trunk/projects/NAMII/Rapid/FlipDots
-```
 
 ## Usage ##
 
